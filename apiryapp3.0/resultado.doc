@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Saludo</title>
+</head>
+<body>
+    <h1>Varroas localizadas, He encontrado 17 !</h1>
+    <h1>Si el porcentaje es elevado a dichas cantidades como se muestra en la tabla es recomendable tomar acciones apresuradas para el bienestar de tu colmena</h1>
+    <img src="C:/Users/andre/OneDrive/Escritorio/apiryapp3.0/tabla.png">
+    <h2>Manuales para disminuir la cifra elevada de Varroa destructor</h2>
+    <h3>1.-Modo 1 para disminuir las varroas destructoras</h3>
+    <a href="https://www.latiendadelapicultor.com/blog/varroa-destructor-que-es-y-como-tratarla/">Más información sobre Varroa Destructor</a><br>
+    <h3>2.-Modo 2 para disminuir las varroas destructoras</h3>    
+    <a href="https://osiap.org.mx/senasica/sites/default/files/Varroa1%20(1)-ilovepdf-compressed.pdf">Documento sobre el control de Varroa</a><br>
+    <h3>3.-Modo 3 para disminuir las varroas destructoras</h3>
+    <a href="https://pollinators.psu.edu/assets/uploads/documents/Me%CC%81todos-para-el-control-de-Varroa-destructor-un-enfoque-de-manejo-integrado-de-plagas.pdf">Métodos para el control de Varroa - The Center for Pollinator Research</a>
+</body>
+</html>
