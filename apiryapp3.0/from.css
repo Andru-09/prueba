@@ -1,0 +1,27 @@
+body {
+    background-image: url('istockphoto-1427357416-612x612.jpg');
+    background-size: cover; /* Para ajustar la imagen al tamaño del contenedor */
+    color: white; /* Para que el texto sea legible */
+    background-repeat: no-repeat;
+    font-family:'Adobe Clean', Arial, Helvetica, sans-serif; 
+  }
+
+  button {
+    margin-top: 20px;
+    margin-left: 580px;
+    border-radius: 20px; /* Puedes ajustar el valor según la curvatura deseada */
+    padding: 10px 20px; /* Ajusta el padding según el contenido */
+    background-color: #ff7c02; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quita el borde predeterminado */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Quita la subraya de los enlaces */
+    display: inline-block; /* Para que el botón se comporte como un elemento en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+  }
+
+  h1 {
+    text-align: center;
+  }
