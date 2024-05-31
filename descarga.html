@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descarga.css" />
+    <title>Apirryresults</title>
+</head>
+<body>
+   
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resultados</title>
+</head>
+<body>
+  <div id="fuente">
+    <h1>Descarga el documento con los resultados</h1>
+        
+  </div>
+
+    <a id="downloadLink" href="./resultado.doc" button>Descarga el documento</a>
+   
+
+    <script>
+        // Función para activar la descarga del documento
+        function downloadDocument() {
+            var link = document.getElementById('downloadLink');
+            link.click(); // Simula un clic en el enlace de descarga
+        }
+
+        // Llama a la función para activar la descarga al cargar la página
+        window.onload = downloadDocument;
+    </script>
+<div>
+  <script>
+    var a, b, listagem;
+
+    function op() {
+      a = document.getElementById("a").value;
+      b = document.getElementById("b").value;
+      a = parseInt(a);
+      b = parseInt(b);
+      console.log(a,b);
+      
+      // Realizar la operación de división automáticamente
+      listagem = (a / b);
+      
+      // Multiplicar el resultado por 100
+      listagem *= 100;
+      
+      document.getElementById("resultado").value = listagem;
+    }
+</script>
+</head>
+<body>
+  <div>
+    <br>
+    <h2 id="adobe">Iniciar Operación</h2>
+    <h1 id="hola">"Realiza tu operación de forma rápida y sencilla"</h1>
+    <form>
+        <fieldset id="botoes" >
+            <label for="a" ></label>
+            <input type="number" id="a" placeholder="Numero de acaros "/></br>
+            <!-- Eliminamos el campo de texto para la operación -->
+            <label for="b" ></label>
+            <input type="number" id="b" placeholder="Numero de colmenas"/></br>    
+        </fieldset>
+        </br>
+        <fieldset >
+            <legend>Cálculos/Limpiar</legend>
+            <input type="button" class="button" value="Calcular"onclick="op();" />
+            <input type="reset" class="button" value="limpar dados" />
+            <input type="text"  id="resultado" placeholder="resultado"disabled /> </br>
+        </fieldset>
+    </form>
+    <div id="plataforma" ><h1>Realiza la Solicitud para tu precertificado</h1></div>
+    <a href="frommap.html">
+      <button id="button">Solicitud</button></a>
